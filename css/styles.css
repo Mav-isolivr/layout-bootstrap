@@ -1,0 +1,10 @@
+.green-btn{
+    background: #4CAF4F;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.green-btn:hover, .green-btn:focus{
+    background: #439446;
+    color: #ffffff;
+}
