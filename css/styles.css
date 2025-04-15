@@ -12,3 +12,8 @@
 .tim-smith h5{
     color: #4CAF4F;
 }
+
+.text-translate{
+    transform: translateY(-70%);
+    background: #fff;
+}
