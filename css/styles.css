@@ -9,11 +9,69 @@
     color: #ffffff;
 }
 
+.link{
+    color: #439446;
+}
+
 .tim-smith h5{
     color: #4CAF4F;
 }
 
 .text-translate{
     transform: translateY(-70%);
-    background: #fff;
+    background: #F5F7FA;
+    width: 317px;
 }
+
+
+
+.card h5{
+    color: #717171;
+    bottom: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card{
+    border: none;
+    box-shadow: 0 10px  #ABBED166;
+    padding: 16px;
+    margin: 25.5px;
+}
+
+.card img{
+    width: 368px;
+    height: 286px;
+}
+
+.card a img{
+    width: auto;
+    height: auto;
+}
+
+.demo-btn{
+    background: #4CAF4F;
+    color: #ffffff;
+    font-weight: 400;
+    border: none;
+    border-radius: 4px;
+}
+
+.container-bottom{
+    background: #263238;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 165px ;
+}
+
+
+
+
