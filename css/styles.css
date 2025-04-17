@@ -11,11 +11,13 @@
 
 .link{
     color: #439446;
+    text-decoration: none;
 }
 
 .tim-smith h5{
     color: #4CAF4F;
 }
+
 
 .text-translate{
     transform: translateY(-70%);
@@ -25,29 +27,40 @@
 
 
 
-.card h5{
-    color: #717171;
-    bottom: 16px;
-    display: flex;
-    justify-content: center;
-}
-
 .container-card{
     display: flex;
     justify-content: space-between;
     
 }
 
-.card{
+.card-description{
     border: none;
-    box-shadow: 0 10px  #ABBED166;
+    box-shadow: 0 10px 10px #ABBED166;
     padding: 16px;
     margin: 25.5px;
+    border-radius: 8px;
+    bottom: 16px;
+    
+}
+
+.card-description h5{
+    text-align: center;
+    color: #717171;
+}
+
+.card-bottom{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .card img{
     width: 368px;
     height: 286px;
+}
+
+.card a{
+    font-weight: bold;
 }
 
 .card a img{
@@ -61,7 +74,23 @@
     font-weight: 400;
     border: none;
     border-radius: 4px;
+   
 }
+
+.demo-btn p{
+     margin: 14px 32px;
+}
+
+.container-top{
+    background: #F5F7FA;
+    padding: 32px;
+}
+.container-top h2{
+    font-size: 64px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 
 .container-bottom{
     background: #263238;
@@ -72,6 +101,44 @@
     padding: 64px 165px ;
 }
 
+.container-bottom .copy{
+    margin: 40px 0;
+}
+
+.container-bottom img{
+    margin: 0 8px;
+}
+
+.company h3{
+    margin-bottom: 24px;
+}
+
+.company p{
+    margin-bottom: 12px;
+}
+
+.support h3{
+    margin-bottom: 24px;
+}
+
+.support p{
+    margin-bottom: 12px;
+}
+
+.email h3{
+    margin-bottom: 24px;
+}
+
+.send-email{
+    color: #D9DBE1;
+    background: #515b60;
+    text-decoration: none;
+}
+
+.send-email input{
+    background-color: #515b60;
+    
+}
 
 
 
